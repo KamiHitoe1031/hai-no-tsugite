@@ -1,0 +1,16 @@
+{
+  "name": "hai-no-tsugite",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "generate-images": "node scripts/generate-images.mjs",
+    "preview": "npx serve dist"
+  },
+  "dependencies": {
+    "@fal-ai/client": "^1.2.0",
+    "dotenv": "^16.4.7",
+    "marked": "^15.0.0"
+  }
+}

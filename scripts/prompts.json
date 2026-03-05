@@ -1,0 +1,152 @@
+[
+  {
+    "output": "images/main-visual.webp",
+    "prompt": "anime illustration, light novel style, fantasy world panoramic vista, a young girl with long silver-gray hair and jade-green eyes standing on a hilltop overlooking a vast medieval European fantasy landscape called Elderia, glowing vein-like streams of magical energy (star veins) running through the earth below, she wears a gray servant dress with a silver flower hairpin, wind blowing her hair, golden morning light illuminating rolling hills and a distant castle, ethereal atmosphere, hopeful and epic mood, highly detailed background",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "output": "images/cover-vol1.webp",
+    "prompt": "anime illustration, light novel style, book cover composition, a 15-year-old girl with long silver-gray hair and jade-green eyes wearing a gray servant dress, kneeling in a withered garden with gray ash-covered ground, her hands touching the earth as faint green-golden light emerges from the soil, a silver flower hairpin gleaming in her hair, behind her a grand Gothic manor house, dark overcast sky with a single beam of light breaking through clouds, dried vines and dead flowers slowly showing tiny green sprouts, melancholic yet hopeful atmosphere, title space at top, highly detailed, dramatic lighting",
+    "aspect_ratio": "2:3"
+  },
+  {
+    "output": "images/cover-vol2.webp",
+    "prompt": "anime illustration, light novel style, book cover composition, a 15-year-old girl with long silver-gray hair and jade-green eyes in warm winter travel clothes standing in a snowy valley landscape, silver threads of star vein energy weaving through the air around her glowing hands, behind her a partially rebuilt stone village in a mountain valley, a woman with light purple hair and purple eyes (Viola) visible in the distance, winter atmosphere with soft snowfall, warm golden light from windows contrasting cold blue snow, interconnection theme, silver thread motifs in the composition, title space at top",
+    "aspect_ratio": "2:3"
+  },
+  {
+    "output": "images/cover-vol3.webp",
+    "prompt": "anime illustration, light novel style, book cover composition, a 15-year-old girl with long silver-gray hair and jade-green eyes standing in a golden wheat field at dawn, wearing practical travel clothes, her arms slightly raised as warm light radiates from her palms, behind her a fully restored village with smoke rising from chimneys, harvest festival decorations visible, brilliant orange-pink sunrise sky, star vein energy glowing warmly beneath the fertile earth, expression of quiet confidence and peace, silver flower hairpin catching the dawn light, title space at top, triumphant and serene mood",
+    "aspect_ratio": "2:3"
+  },
+  {
+    "output": "images/vol1/ch01.webp",
+    "prompt": "anime illustration, light novel style, dramatic and tragic scene, a burning medieval village at night, flames consuming wooden houses, a woman with flax-colored hair (Elza) clutching a small 7-year-old girl with silver-gray hair (young Sylphi) protectively, soldiers in imperial armor visible in the background, the woman's hand glowing faintly with green light as she touches the earth one last time, tears streaming down the child's face, smoke and embers filling the dark sky, devastating and emotional atmosphere, warm fire tones contrasting with cold night",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "output": "images/vol1/ch02.webp",
+    "prompt": "anime illustration, light novel style, early morning scene in a grand manor kitchen, a 15-year-old girl with long silver-gray hair tied back and jade-green eyes wearing a gray servant dress and white apron, carrying a tray of breakfast items down a stone corridor, warm candlelight and early dawn light through tall windows, detailed medieval European interior with tapestries and stone walls, an older stern-looking woman (Marta) supervising in the background, everyday life atmosphere, soft warm lighting, peaceful domestic scene",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "output": "images/vol1/ch03.webp",
+    "prompt": "anime illustration, light novel style, mysterious and magical scene, a 15-year-old girl with long silver-gray hair and jade-green eyes kneeling in an overgrown manor garden, her hand pressed against the soil, faint luminous green-gold veins of energy visible beneath the earth's surface, her eyes wide with wonder as she hears a mystical humming sound, wild roses and tangled vines surrounding her, dappled sunlight through old trees, particles of light rising from the ground, sense of awakening and discovery, ethereal atmosphere",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "output": "images/vol1/ch04.webp",
+    "prompt": "anime illustration, light novel style, a 17-year-old young man with golden blonde hair and blue eyes (Erich) standing alone in a grand study filled with books and maps, wearing noble clothing befitting a duke's heir, his reflection visible in a rain-streaked window, expression of burden and determination, a large portrait of a stern middle-aged man with steel-gray expression and sharp blue eyes (Duke Dietrich) hanging on the wall behind him, dark wood furnishings, candlelight, heavy atmosphere of responsibility and expectation, moody blue-gray tones",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "output": "images/vol1/ch05.webp",
+    "prompt": "anime illustration, light novel style, a stern woman in her 40s with black hair pulled back tightly (Irene) wearing formal dark clothing and silver-rimmed glasses, stepping out of an official carriage at the gates of a grand manor, holding documents and a briefcase, her expression cold and analytical, imperial crest on the carriage door, guards standing at attention, overcast autumn sky, fallen leaves on the cobblestone path, intimidating and official atmosphere, sharp clean lines, cool color palette",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "output": "images/vol1/ch06.webp",
+    "prompt": "anime illustration, light novel style, tense interior scene, a woman with black hair in a tight bun and silver-rimmed glasses (Irene) sitting at a desk examining documents with intense focus, across from her a 15-year-old girl with silver-gray hair and jade-green eyes (Sylphi) standing nervously in her gray servant dress, a formal investigation room in a manor house, stacks of papers and official seals on the desk, Irene's sharp gaze fixed on Sylphi, cold institutional lighting contrasting with warm afternoon light from a window, suspenseful atmosphere",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "output": "images/vol1/ch07.webp",
+    "prompt": "anime illustration, light novel style, festive autumn scene, a medieval European town square decorated with harvest garlands and lanterns for an autumn festival, a 15-year-old girl with silver-gray hair (Sylphi) and a 16-year-old girl with curly red hair and freckles (Rosetta) laughing together while walking through market stalls, warm orange-gold autumn colors, crowds of villagers in festive clothing, food stalls with pastries and cider, colorful banners, falling autumn leaves, joyful and warm atmosphere, golden hour lighting",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "output": "images/vol1/ch08.webp",
+    "prompt": "anime illustration, light novel style, dreamlike and haunting scene, a 15-year-old girl with silver-gray hair (Sylphi) standing in a spectral vision of a destroyed village, translucent ghostly images of buildings that once stood overlapping with ruins, the ground cracked and gray with dead star veins visible as dark lines, a faint figure of a woman with flax-colored hair (Elza's ghost) visible in the distance, misty blue-purple atmosphere, surreal dream quality with floating particles of ash and light, melancholic and mysterious mood",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "output": "images/vol1/ch09.webp",
+    "prompt": "anime illustration, light novel style, magical awakening scene, a 15-year-old girl with silver-gray hair and jade-green eyes (Sylphi) in the manor garden at twilight, her hands unconsciously glowing with warm green-golden light, withered plants around her beginning to straighten and show new growth, her expression a mix of fear and awe as she looks at her own glowing hands, star vein energy rising from the earth in luminous streams around her feet, fireflies mixing with magical particles, dramatic lighting from below, transformative moment",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "output": "images/vol1/ch10.webp",
+    "prompt": "anime illustration, light novel style, quiet contemplative scene in a moonlit garden, a woman with black hair and silver-rimmed glasses (Irene) sitting on a stone bench beside a 15-year-old girl with silver-gray hair (Sylphi), both looking up at a starry sky, Irene's usual stern expression softened into something thoughtful and almost gentle, faint star vein glow visible in the garden soil beneath them, night-blooming flowers open around them, soft moonlight, intimate conversation atmosphere, cool blue tones with warm accents, character development moment",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "output": "images/vol1/ch11.webp",
+    "prompt": "anime illustration, light novel style, split composition showing two separate nighttime scenes, left side: a weathered 56-year-old man with short salt-and-pepper hair and facial scars (Kaspar) sitting by a fireplace in a modest room, his large hands clasped together, expression of painful remembrance, shadows of his military past on the wall, right side: a 17-year-old young man with golden hair (Erich) standing at a window in his noble chambers, moonlight on his determined face, clenching his fist with resolve, both scenes connected by the same moonlit sky visible through windows, emotional and reflective mood",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "output": "images/vol1/ch12.webp",
+    "prompt": "anime illustration, light novel style, journey departure scene, a small group on horseback leaving a grand manor at dawn, a 15-year-old girl with silver-gray hair (Sylphi) looking back at the manor with mixed emotions, a 17-year-old golden-haired young man (Erich) riding beside her, a large scarred older man (Kaspar) and a red-haired girl (Rosetta) also in the party, packed horses with travel supplies, a long road stretching ahead toward distant mountains, morning mist in a valley, warm sunrise colors against cool morning blues, sense of adventure and uncertainty, cinematic wide shot",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "output": "images/vol1/ch13.webp",
+    "prompt": "anime illustration, light novel style, powerful emotional scene, a 15-year-old girl with silver-gray hair and jade-green eyes (Sylphi) standing in the ruins of her destroyed hometown Riesental, tears streaming down her face as brilliant green-gold light erupts from her hands pressed against the barren earth, star vein energy surging back to life in glowing patterns across the ground, ghostly warm vision of her mother with flax-colored hair (Elza) appearing behind her with a gentle smile, crumbling stone walls and dead trees in the background beginning to show the faintest green, overwhelming emotional catharsis, dramatic magical lighting",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "output": "images/vol1/ch14.webp",
+    "prompt": "anime illustration, light novel style, hopeful and triumphant scene, a 15-year-old girl with silver-gray hair and jade-green eyes (Sylphi) standing tall in the ruins of Riesental, small green sprouts and tiny flowers emerging from the ash-gray ground around her feet, her silver flower hairpin gleaming, expression of quiet determination and newfound purpose, her companions watching from behind - golden-haired Erich, red-haired Rosetta, scarred Kaspar, warm golden sunlight breaking through clouds, roots visibly growing through cracked stone, rebirth and renewal atmosphere, beautiful and hopeful ending scene",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "output": "images/vol2/ch01.webp",
+    "prompt": "anime illustration, light novel style, winter landscape scene, the ruined valley village of Riesental covered in fresh snow, a 15-year-old girl with silver-gray hair (Sylphi) and her companions working to clear rubble and set up temporary shelters, breath visible in cold air, a scarred older man (Kaspar) directing construction with military precision, small green patches visible where Sylphi has healed the earth despite the snow, smoke rising from a makeshift campfire, cold blue-white winter tones with warm orange firelight, beginning of rebuilding, industrious and hopeful atmosphere",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "output": "images/vol2/ch02.webp",
+    "prompt": "anime illustration, light novel style, intimate letter-writing scene, split composition, top: a 15-year-old girl with silver-gray hair (Sylphi) sitting at a rough wooden desk in a simple stone room, writing a letter by candlelight, smiling softly, bottom: in a grand imperial office, a stern woman with black hair and glasses (Irene) reading a letter with a subtle smile, beside her a young woman with light purple hair and purple eyes (Viola) looking over her shoulder with curiosity, a carrier bird perched on a windowsill, warm candlelight tones, connection across distance theme, gentle emotional atmosphere",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "output": "images/vol2/ch03.webp",
+    "prompt": "anime illustration, light novel style, warm festive winter scene, a small group gathered in a partially restored stone building for a winter solstice celebration, a 15-year-old girl with silver-gray hair (Sylphi) singing with her eyes closed and hands clasped, faint magical glow emanating from her, her companions listening with moved expressions - golden-haired Erich, red-haired freckled Rosetta wiping tears, scarred Kaspar with a rare gentle expression, simple evergreen decorations and candles on a rough wooden table, snow visible through a window, warm intimate atmosphere despite humble surroundings, beautiful and touching scene",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "output": "images/vol2/ch04.webp",
+    "prompt": "anime illustration, light novel style, tense ominous scene, a messenger arriving on horseback at the partially rebuilt village of Riesental in early spring, delivering an official sealed letter, a 15-year-old girl with silver-gray hair (Sylphi) and a 17-year-old golden-haired young man (Erich) reading the letter together with worried expressions, dark clouds gathering on the horizon in the direction of the imperial capital, spring flowers blooming in contrast to the threatening mood, wind picking up and blowing cherry blossom-like petals, foreboding atmosphere, dramatic sky with approaching storm metaphor",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "output": "images/vol2/ch05.webp",
+    "prompt": "anime illustration, light novel style, dramatic negotiation scene, a woman with black hair and silver-rimmed glasses (Irene) standing firmly in front of imperial soldiers and officials, her hand raised in a commanding gesture to halt them, behind her the village of Riesental with its residents watching anxiously, a 15-year-old girl with silver-gray hair (Sylphi) visible among them, official documents in Irene's other hand, tension between the military force and the lone bureaucrat, dramatic wind and lighting, Irene's glasses catching the light, powerful stand-alone-against-authority moment",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "output": "images/vol2/ch06.webp",
+    "prompt": "anime illustration, light novel style, spectacular magical scene, a 15-year-old girl with silver-gray hair and jade-green eyes (Sylphi) at a star vein nexus point in a valley, massive streams of golden-green magical energy erupting from the earth around her in a pillar of light, her hair and clothes billowing upward, the ground beneath her feet showing an intricate web pattern of glowing star veins spreading outward across the valley, her expression one of focused intensity and connection, night sky above filled with stars that seem to respond to the energy below, awe-inspiring scale, magnificent magical awakening event",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "output": "images/vol2/ch07.webp",
+    "prompt": "anime illustration, light novel style, confrontation scene, a 17-year-old golden-haired young man in noble attire (Erich) standing between a 15-year-old silver-haired girl (Sylphi) and an imperial officer (Werner) with soldiers behind him, Erich's posture protective and commanding despite his youth, his blue eyes fierce with determination as he negotiates, the star veins in the ground still faintly glowing from the previous awakening, tense standoff atmosphere, dramatic lighting with the sun low on the horizon casting long shadows, power dynamics and courage theme",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "output": "images/vol2/ch08.webp",
+    "prompt": "anime illustration, light novel style, peaceful and hopeful spring scene, the valley of Riesental (Ash Valley) in early spring with new green growth everywhere, a 15-year-old girl with silver-gray hair (Sylphi) standing in front of a newly built small stone house with a wooden sign reading Sprouting House, surrounded by her found family - golden-haired Erich, red-haired Rosetta, scarred Kaspar, star vein energy glowing gently beneath blooming wildflowers, cherry trees in bloom, blue sky with white clouds, warm spring sunlight, new beginning atmosphere, heartwarming group scene",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "output": "images/vol3/ch01.webp",
+    "prompt": "anime illustration, light novel style, political tension scene, a grand duke's office in a fortress-like manor, a 17-year-old golden-haired young man (Erich) standing before his father - a 48-year-old man with steel-like expression and sharp blue eyes (Duke Dietrich) seated behind a massive desk, maps and documents spread before them, a midsummer deadline calendar visible, father and son locked in an intense gaze, rich dark wood and stone interior with imperial banners, shaft of light from a high window between them, power struggle and family conflict atmosphere, dramatic chiaroscuro lighting",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "output": "images/vol3/ch02.webp",
+    "prompt": "anime illustration, light novel style, contemplative decision scene, a 15-year-old girl with silver-gray hair and jade-green eyes (Sylphi) sitting under a large ancient tree on a hillside overlooking the rebuilding valley of Riesental, her silver flower hairpin in her hands as she examines it thoughtfully, expression showing the weight of accepting an imperfect compromise, golden afternoon light filtering through leaves, the village below showing progress but also limitations and imperial oversight buildings, bittersweet atmosphere, beautiful landscape contrasting with internal struggle, mature and nuanced emotional moment",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "output": "images/vol3/ch03.webp",
+    "prompt": "anime illustration, light novel style, triumphant official scene, an imperial messenger presenting an ornate scroll with an official seal to a group in Riesental, a 15-year-old girl with silver-gray hair (Sylphi) accepting the document with both hands, a 17-year-old golden-haired young man (Erich) standing proudly beside her, their companions gathered around - red-haired Rosetta cheering, scarred Kaspar nodding with approval, a woman with black hair and glasses (Irene) showing a rare genuine smile, a woman with light purple hair (Viola) present and emotional, official approval and recognition moment, bright hopeful lighting, celebratory atmosphere with restrained joy",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "output": "images/vol3/ch04.webp",
+    "prompt": "anime illustration, light novel style, grand finale scene, a restored village of Riesental during a harvest festival at dawn, golden wheat fields surrounding rebuilt stone houses with flower boxes, villagers celebrating with music and food, at the center a 15-year-old girl with silver-gray hair and jade-green eyes (Sylphi) standing in brilliant morning sunlight on a small hill, her silver flower hairpin gleaming, wearing practical but beautiful travel clothes, star vein energy glowing warmly in harmony throughout the entire valley like a web of golden light beneath the earth, her expression serene and confident as she faces the sunrise, all her companions visible in the background celebrating, the entire scene bathed in warm golden dawn light, culmination of the entire journey, beautiful hopeful ending, breathtaking panoramic composition",
+    "aspect_ratio": "16:9"
+  }
+]
