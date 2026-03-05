@@ -6,7 +6,12 @@ import dotenv from "dotenv";
 dotenv.config({ path: path.resolve(import.meta.dirname, "..", ".env") });
 
 const ROOT = path.resolve(import.meta.dirname, "..");
-const PROMPTS_FILE = path.join(import.meta.dirname, "prompts.json");
+// CLIで --prompts <file> を指定可能（デフォルト: prompts.json）
+const promptsArg = process.argv.indexOf("--prompts");
+const PROMPTS_FILE = promptsArg !== -1 && process.argv[promptsArg + 1]
+  ? path.resolve(import.meta.dirname, process.argv[promptsArg + 1])
+  : path.join(import.meta.dirname, "prompts.json");
+const SKIP_REFS = promptsArg !== -1;
 const CHAR_REFS_DIR = path.join(ROOT, "images", "character-refs");
 
 if (!process.env.GOOGLE_API_KEY) {
@@ -124,34 +129,39 @@ async function main() {
   const prompts = JSON.parse(fs.readFileSync(PROMPTS_FILE, "utf-8"));
   fs.mkdirSync(CHAR_REFS_DIR, { recursive: true });
 
-  console.log(`使用モデル: ${MODEL} (NanobanaPro)\n`);
-
-  // === Phase 1: キャラクターリファレンス生成 ===
-  console.log("=== Phase 1: キャラクターリファレンス生成 ===\n");
+  console.log(`使用モデル: ${MODEL} (NanobanaPro)`);
+  console.log(`プロンプト: ${path.basename(PROMPTS_FILE)}\n`);
 
   const charRefPaths = {};
-  for (const char of CHARACTER_REFS) {
-    const refPath = path.join(CHAR_REFS_DIR, `${char.id}.png`);
-    charRefPaths[char.id] = refPath;
 
-    if (fs.existsSync(refPath)) {
-      console.log(`[リファレンス] スキップ: ${char.name} (既存)`);
-      continue;
-    }
+  if (!SKIP_REFS) {
+    // === Phase 1: キャラクターリファレンス生成（灰の継ぎ手専用） ===
+    console.log("=== Phase 1: キャラクターリファレンス生成 ===\n");
 
-    console.log(`[リファレンス] 生成中: ${char.name}...`);
-    try {
-      const buf = await generateImage(char.prompt, [], "3:4");
-      fs.writeFileSync(refPath, buf);
-      console.log(`  完了: ${char.name} (${(buf.length / 1024).toFixed(0)}KB)`);
-    } catch (err) {
-      console.error(`  エラー: ${char.name} - ${err.message}`);
+    for (const char of CHARACTER_REFS) {
+      const refPath = path.join(CHAR_REFS_DIR, `${char.id}.png`);
+      charRefPaths[char.id] = refPath;
+
+      if (fs.existsSync(refPath)) {
+        console.log(`[リファレンス] スキップ: ${char.name} (既存)`);
+        continue;
+      }
+
+      console.log(`[リファレンス] 生成中: ${char.name}...`);
+      try {
+        const buf = await generateImage(char.prompt, [], "3:4");
+        fs.writeFileSync(refPath, buf);
+        console.log(`  完了: ${char.name} (${(buf.length / 1024).toFixed(0)}KB)`);
+      } catch (err) {
+        console.error(`  エラー: ${char.name} - ${err.message}`);
+      }
+      await sleep(3000);
     }
-    await sleep(3000);
+    console.log("");
   }
 
-  // === Phase 2: シーンイラスト生成 ===
-  console.log("\n=== Phase 2: シーンイラスト生成 ===\n");
+  // === シーンイラスト生成 ===
+  console.log("=== シーンイラスト生成 ===\n");
   console.log(`${prompts.length}枚の画像を生成します\n`);
 
   let generated = 0;
@@ -171,9 +181,8 @@ async function main() {
 
     fs.mkdirSync(outputDir, { recursive: true });
 
-    // プロンプトに登場するキャラクターを検出
-    const charIds = detectCharacters(item.prompt);
-    const refImages = charIds
+    // プロンプトに登場するキャラクターを検出（キャラ参照有効時のみ）
+    const refImages = SKIP_REFS ? [] : detectCharacters(item.prompt)
       .filter(id => fs.existsSync(charRefPaths[id]))
       .map(id => ({
         path: charRefPaths[id],

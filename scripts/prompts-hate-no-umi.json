@@ -1,0 +1,87 @@
+[
+  {
+    "output": "images/hate-no-umi/main-visual.webp",
+    "prompt": "anime illustration, light novel style, epic panoramic seascape of a vast multi-island ocean called Lanterna, a tall white lighthouse standing alone in the middle of the sea at the distant horizon glowing with warm golden light, in the foreground a small white-sailed boat carrying a 15-year-old girl with long hair standing at the bow looking toward the lighthouse, scattered islands with colorful houses visible in the mid-ground, the sea surface reflecting golden light like scattered jewels, warm sunrise colors blending with deep ocean blues, a sense of vast adventure and lonely determination, the contrast between the small boat and the infinite sea, highly detailed fantasy ocean landscape",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "output": "images/hate-no-umi/cover.webp",
+    "prompt": "anime illustration, light novel style, book cover composition, a 15-year-old girl with long dark hair and warm brown eyes wearing a white shrine maiden travel outfit (Luna Candela) standing on the bow of a small white-sailed boat, her hands cupped together with a small warm golden flame (mother's lantern fire) glowing in her palms, behind her a vast ocean stretching to the horizon where a faint white lighthouse glows, her expression determined yet gentle, wind blowing her hair and the boat's sail, a small island with colorful houses and a white chapel visible in the distance behind, golden light from her palms illuminating her face, title space at top, adventure and hope atmosphere, warm gold and deep blue color palette",
+    "aspect_ratio": "2:3"
+  },
+  {
+    "output": "images/hate-no-umi/ch01.webp",
+    "prompt": "anime illustration, light novel style, bittersweet morning scene at a small island harbor, a 5-year-old girl with dark hair (young Luna) held in the arms of an elderly woman with white hair (grandmother Estela) watching a white-sailed boat with a shrine maiden's lantern symbol departing into golden morning light, on the boat a woman with flowing hair waves back with a radiant smile her chest glowing with warm lantern fire, the little girl reaching out with one hand that glows faintly with gifted lantern fire, golden morning light reflecting on calm harbor waters, colorful island houses on the hillside behind them, the white chapel catching orange sunrise light, a moment of farewell that becomes permanent, achingly beautiful and emotional atmosphere",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/hate-no-umi/ch02.webp",
+    "prompt": "anime illustration, light novel style, a 15-year-old girl with long dark hair and warm eyes (Luna) standing up in a village council meeting hall declaring her intention to seek the lighthouse, elderly islanders seated around a round table with shocked and worried expressions, through the windows the island harbor is visible with water levels visibly higher than normal showing the sinking island, Luna's expression brave and radiant with her characteristic warm smile, her lantern fire glowing faintly in her chest, an old man with a white beard (Albert) looking at her with tearful recognition, warm interior lighting contrasting with the gray threat of the rising sea outside, courage and determination atmosphere",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/hate-no-umi/ch03.webp",
+    "prompt": "anime illustration, light novel style, dramatic rescue scene on a misty harbor dock at dawn, a 15-year-old girl with long dark hair (Luna) kneeling beside a collapsed boy with black hair and deep red eyes (Ignis) who lies injured and barely conscious on the wooden pier, her hands pressed to his chest glowing with warm golden lantern fire performing a life-saving fire-sharing ritual, his lantern fire is dark purple and nearly extinguished, his clothes torn and bloodied, morning mist swirling around them, the contrast between her warm golden light and his cold dark aura, a white-sailed boat waiting nearby, tense and compassionate atmosphere, the first meeting of the priestess and the former assassin",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/hate-no-umi/ch04.webp",
+    "prompt": "anime illustration, light novel style, dramatic storm scene at sea, a small white-sailed boat being tossed by enormous dark waves, a 15-year-old girl with long dark hair (Luna) clinging to the mast with soaked clothes, a lean boy with black hair and intense red eyes (Ignis) standing at the stern gripping the tiller with dark red lantern fire flowing from his hands to propel the ship, lightning illuminating a small island in the distance, rain lashing horizontally, the sail torn and ropes whipping in the wind, a desperate fight for survival on the open sea, dark blue-gray storm tones with flashes of red and white lightning, intense adventure atmosphere",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/hate-no-umi/ch05.webp",
+    "prompt": "anime illustration, light novel style, awe-inspiring discovery scene, a massive floating church-ship hovering above the ocean surface covered in barnacles and coral, stained glass windows still faintly glowing with ancient lantern fire, a small white-sailed boat approaching from below with tiny figures on deck looking up in wonder, a girl with long dark hair (Luna) a boy with black hair (Ignis) a girl with short brown hair and amber eyes (Marin) and a boy with glasses (Soleil) all staring upward, the setting sun behind the floating church creating a dramatic silhouette, seabirds circling the massive structure, the sense of encountering something ancient and miraculous, warm sunset oranges against deep ocean blues",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/hate-no-umi/ch06.webp",
+    "prompt": "anime illustration, light novel style, mystical trial scene, a 15-year-old girl with long dark hair (Luna) standing in a surreal space where the ocean floor is visible through transparent water, facing a massive stone guardian figure demanding she surrender her most precious memories, ghostly images of her mother and childhood swirling around her, her companions visible behind her lending their lantern fire support, Luna's own lantern fire blazing brightly golden from her chest and hands as she refuses to sacrifice her memories, ethereal underwater light filtering from above, the tension between sacrifice and defiance, magical blue-green and gold atmosphere, the first trial of the lighthouse",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/hate-no-umi/ch07.webp",
+    "prompt": "anime illustration, light novel style, emotional trial scene on a calm mirror-like sea, a boy with black hair and red eyes (Ignis) standing alone on the water surface facing ghostly chains of his past as an assassin, dark purple lantern fire struggling against binding shadows, behind him at a distance his companions watch with concern, Luna reaching out toward him with glowing golden hands, the mirror-sea reflecting both the dark sky above and a warmer light below, Ignis torn between his dark past and the bonds he has formed, the contrast between cold dark chains and warm reaching light, atmospheric and deeply emotional, the trial of bonds",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/hate-no-umi/ch08.webp",
+    "prompt": "anime illustration, light novel style, intellectual challenge scene, a teenage girl with short hair and round glasses with amber eyes (Soleil) standing before a vast library that exists inside the ocean, books and scrolls floating in water that behaves like air, she holds her father's research notebook open while lantern-fire equations glow around her, her expression showing the conflict between sacrificing knowledge and holding onto her father's legacy, the library trial demanding she give up her most precious knowledge, water-light creating a dreamlike blue-green atmosphere, academic determination and filial love, surreal underwater library setting",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/hate-no-umi/ch09.webp",
+    "prompt": "anime illustration, light novel style, dreamlike trial scene, a teenage girl with short messy hair and fierce sea-green eyes (Marin) standing inside a golden-lit doorway that shows her deepest dream - a vision of herself as a great captain on a magnificent ship with a full crew, the real Marin on one side in her worn sailor clothes looking torn between the beautiful dream and the reality of her companions waiting on the other side, warm dream-light on the left contrasting with cool ocean-reality on the right, the trial of dreams asking her to stay in fantasy forever, bittersweet and tempting atmosphere, the courage to choose imperfect reality over perfect illusion",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/hate-no-umi/ch10.webp",
+    "prompt": "anime illustration, light novel style, somber and redemptive scene, a young woman around 19 with long brown hair and haunted eyes (Rila) standing on the deck of the boat in dark waters near the extinction zone, facing a ghostly vision of a woman who resembles Luna's mother (Arishia), Rila's lantern fire dim and guilt-ridden, tears flowing as she confronts her past failure of abandoning her mentor, the ghost extending a forgiving hand, dark oppressive ocean surroundings with a single beam of warm light breaking through clouds illuminating the two figures, the trial of atonement, deeply emotional atmosphere of guilt forgiveness and healing",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/hate-no-umi/ch11.webp",
+    "prompt": "anime illustration, light novel style, bleak and oppressive scene, a small white-sailed boat drifting through an ocean devoid of all color and light called the Extinction Zone, the six crew members huddled together for warmth as their lantern fires visibly shrink and dim, no magic can be used, the sea is black and the sky is starless, a boy with sandy hair and a lute (Ash the bard) uncharacteristically serious warning the group, the boat creaking without magical support, only a faint distant glow on the horizon suggesting the lighthouse ahead, the absolute darkness pressing in from all sides, atmosphere of existential dread and fading hope, monochrome dark palette with one tiny golden point of light ahead",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/hate-no-umi/ch12.webp",
+    "prompt": "anime illustration, light novel style, deceptively peaceful scene on a beautiful calm blue ocean with perfect weather, a 15-year-old girl with long dark hair (Luna) sitting on the boat deck looking troubled despite the beauty around her, a translucent rainbow-like membrane visible ahead on the water surface, a voice from nowhere telling the travelers to give up their quest, the other companions each showing signs of doubt and exhaustion, the trial of surrender disguised as paradise, the contrast between the beautiful serene surface and the insidious psychological attack beneath, suspiciously perfect blue sky and calm sea, atmosphere of temptation and inner struggle",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/hate-no-umi/ch13.webp",
+    "prompt": "anime illustration, light novel style, climactic trial scene, a 15-year-old girl with long dark hair (Luna) standing before the base of the white lighthouse rising impossibly tall from the ocean, the final trial demanding she sacrifice everything - all her lantern fire her memories her bonds her dreams, her five companions standing behind her each lending their remaining lantern fire creating a rainbow of colors flowing into Luna, Luna's expression showing absolute refusal to sacrifice anything, her lantern fire blazing brighter than ever before as she finds a third option, the lighthouse door beginning to crack open with brilliant golden light, waves crashing around them, the ultimate test of finding a way without sacrifice, epic and transcendent atmosphere",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/hate-no-umi/ch14.webp",
+    "prompt": "anime illustration, light novel style, transcendent scene inside the lighthouse, a vast impossible interior space of golden water and a sky filled with countless lantern fires instead of stars, six travelers standing on the water surface looking up in awe, at the center a pillar of primordial flame rising from the water to infinity, Luna walking toward the flame with arms outstretched her own lantern fire resonating with the ancient light, the primordial flame the source of all lantern fire in the world, the reflection in the golden water showing the entire world's islands and their lantern fires, breathtaking scale and beauty, sacred and awe-inspiring atmosphere, gold and deep blue palette",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/hate-no-umi/ch15.webp",
+    "prompt": "anime illustration, light novel style, joyful homecoming scene, a white-sailed boat approaching a small island (Candela Island) that is no longer sinking with its colorful houses and white chapel gleaming in morning light, a 15-year-old girl with long dark hair (Luna) standing at the bow waving with tears of joy, on the harbor an elderly woman with white silver hair (grandmother Estela) waiting with open arms, the island's harbor stone steps fully visible above waterline showing the island has risen, villagers gathering at the port cheering, the sea around the island sparkling with renewed golden lantern fire, warm morning sunlight making everything glow, five companions on the boat behind Luna smiling, the promise fulfilled, overwhelmingly warm and emotional homecoming atmosphere, golden morning light suffusing the entire scene",
+    "aspect_ratio": "3:4"
+  }
+]

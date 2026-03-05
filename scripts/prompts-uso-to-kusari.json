@@ -1,0 +1,102 @@
+[
+  {
+    "output": "images/uso-to-kusari/main-visual.webp",
+    "prompt": "anime illustration, light novel style, panoramic dark fantasy landscape, two travelers walking along a desolate road at twilight, a young man with dark hair and an eye patch over his right eye carrying a leather medicine box, and a petite girl with honey-colored hair carrying a harp on her back, they walk side by side with slight distance between them, a vast ruined kingdom visible in the far distance with crumbling spires, the road stretching endlessly ahead through barren fields, dramatic crimson and purple sunset sky, chains subtly woven into the clouds like a motif, atmosphere of melancholy beauty and quiet determination, the weight of secrets between two travelers",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "output": "images/uso-to-kusari/cover.webp",
+    "prompt": "anime illustration, light novel style, book cover composition, a young man in his late teens with dark messy hair and a black eye patch over his right eye wearing a dark traveling coat with a leather medicine box slung over his shoulder, standing back to back with a petite young woman with long honey-colored hair and bright jade-green eyes holding a small harp, both looking in different directions with complex expressions, broken chains floating around them, one side bathed in warm golden light from the girl and the other in cold blue-purple shadow from the cursed eye beneath the patch, dramatic contrast of light and dark, title space at top, dark fantasy atmosphere with hints of warmth",
+    "aspect_ratio": "2:3"
+  },
+  {
+    "output": "images/uso-to-kusari/ch01.webp",
+    "prompt": "anime illustration, light novel style, dramatic rainy night scene, a young man with dark hair and an eye patch kneeling in deep mud on a storm-lashed road, his traveling coat soaked through, discovering a collapsed young woman with honey-colored hair splayed in the mud with blood staining her side, a flash of lightning illuminating the scene in stark white light, torrential rain hammering down, his medicine box open beside him as he reaches to help her, the contrast between his reluctant expression and his helping hands, dark blue storm tones with white lightning flash, desperate and fateful atmosphere",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/uso-to-kusari/ch02.webp",
+    "prompt": "anime illustration, light novel style, warm morning scene on a misty country road, a young woman with honey-colored hair and jade-green eyes running after a dark-haired young man with an eye patch who is walking ahead trying to leave, she waves cheerfully with one hand while pressing her bandaged side with the other, a small harp strapped to her back, morning mist lifting from the muddy road, golden morning light breaking through clouds, her bright smile contrasting with his exasperated turned-back expression, the beginning of an unwanted companionship, warm golden tones with cool morning mist",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/uso-to-kusari/ch03.webp",
+    "prompt": "anime illustration, light novel style, eerie scene of a cursed abandoned village, a young man with dark hair and eye patch and a girl with honey-colored hair standing at the entrance of a silent village with no smoke from chimneys, dark miasma-like purple mist clinging to the ground between the empty houses, wilted crops and overturned carts, the girl clutching the young man's sleeve while looking worried, his expression tense and analytical, an ominous dark magical aura seeping from the village church in the background, unsettling quiet atmosphere, muted gray-green tones with purple corruption accents",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/uso-to-kusari/ch04.webp",
+    "prompt": "anime illustration, light novel style, grand vista of a white-walled medieval trading city called Lumiere seen from a hilltop approach, massive white stone walls with colorful merchant flags flying from towers, busy gate with travelers and horse carts, a young man with eye patch and a girl with honey-colored hair standing on the hill looking down at the city, the girl pointing excitedly at the towers with sparkling eyes while the man stands with arms crossed, bright afternoon sunlight making the white walls glow, bustling and hopeful atmosphere contrasting with the travelers' hidden burdens, warm white and blue sky tones",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/uso-to-kusari/ch05.webp",
+    "prompt": "anime illustration, light novel style, tense action scene inside a stone workshop, a young man with dark hair and eye patch standing protectively in front of a girl with honey-colored hair holding her harp, facing shadowy armed figures emerging from doorways, scattered medicine bottles and herbs on a workbench, the man's hand reaching toward his eye patch with a conflicted expression, warm afternoon light from a high window cutting through the dusty air, the trap closing in, dramatic tension between using forbidden power and protecting someone, amber and shadow contrast",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/uso-to-kusari/ch06.webp",
+    "prompt": "anime illustration, light novel style, emotional forest scene at dawn, a young man with dark hair and eye patch kneeling beside a small 10-year-old girl with black hair in twin tails and amber eyes huddled against a tree, her left arm wrapped in bandages with faint glowing purple curse marks visible, the man gently examining her arm with careful hands, a girl with honey-colored hair crouching nearby offering the child a piece of bread with a warm smile, misty forest with shafts of golden morning light filtering through the canopy, protective and nurturing atmosphere despite the darkness of the curse",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/uso-to-kusari/ch07.webp",
+    "prompt": "anime illustration, light novel style, atmospheric underground tavern scene, a young man with dark hair and eye patch sitting across a table from a shadowy figure in a hooded cloak in a dimly lit stone basement bar, candles flickering on rough wooden tables, other shady patrons visible in the background, coins and a sealed letter on the table between them, the man's expression guarded and calculating, smoke and dust in the air, a girl with honey-colored hair visible at the stairs keeping watch with a worried expression, noir-like underground information dealing atmosphere, warm candlelight against cold stone",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/uso-to-kusari/ch08.webp",
+    "prompt": "anime illustration, light novel style, emotional farewell scene at a doorway, a small 10-year-old girl with black hair and amber eyes clinging to a young man's coat refusing to let go, tears in her eyes, a girl with honey-colored hair kneeling beside the child trying to comfort her, the young man looking down with a pained expression, a modest room with simple furnishings behind them, morning light through a small window, the weight of promises that might be broken, intimate and bittersweet atmosphere, soft warm lighting",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/uso-to-kusari/ch09.webp",
+    "prompt": "anime illustration, light novel style, dramatic moonlit confrontation on a road, a woman with long silver hair in white cloak and silver armor standing in the middle of a road, a glowing sword of pure white light held in her right hand pulsing with energy, facing a young man with dark hair and eye patch who stands protectively before a girl with honey-colored hair, moonlight casting sharp shadows, the silver-haired woman's expression cold and sorrowful, tension between former friends now on opposite sides, dramatic silver-white and deep blue night tones, the beauty and tragedy of duty versus friendship",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/uso-to-kusari/ch10.webp",
+    "prompt": "anime illustration, light novel style, intimate recovery scene in a dim hideout room, a young man with dark hair lying bandaged on a bed unconscious, a girl with honey-colored hair sitting beside the bed with dark circles under her exhausted eyes, her hands glowing with faint golden light as she tends to him, the room lit only by her golden glow and a small candle, medical supplies and herbs scattered on a nearby table, her expression showing deep worry and determination, the quiet devotion of someone who refuses to let go, warm gold against cool shadow, tender and emotional atmosphere",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/uso-to-kusari/ch11.webp",
+    "prompt": "anime illustration, light novel style, melancholic journey scene through ruins of a destroyed kingdom, four travelers walking through the overgrown remains of a once-grand city with crumbling stone buildings and vegetation reclaiming the streets, a girl with honey-colored hair walking ahead with a somber distant expression unlike her usual cheerful self, a young man with eye patch watching her with concern, a small girl with black hair holding the man's coat, a red-haired scarred man walking behind keeping watch, abandoned and beautiful ruins in golden afternoon light, the weight of returning to a destroyed homeland, bittersweet nostalgia atmosphere",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/uso-to-kusari/ch12.webp",
+    "prompt": "anime illustration, light novel style, devastating emotional scene in moonlit ruins of an old house, a girl with honey-colored hair standing in a broken room with moonlight streaming through a collapsed ceiling, tears on her cheeks but still smiling her characteristic smile, facing a young man with dark hair and eye patch who stands frozen with shock, the ruins of a once-beautiful home around them with fragments of domestic life visible, her confession hanging in the air between them, the contrast between her brave smile and the devastation, pale blue moonlight with warm amber undertones, heartbreaking revelation atmosphere",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/uso-to-kusari/ch13.webp",
+    "prompt": "anime illustration, light novel style, lonely dawn scene in ruins, a girl with honey-colored hair waking up alone on a stone floor reaching for an empty space beside her where someone should be, finding only a leather-bound journal left behind, morning light streaming through broken walls, dust motes floating in the golden light, her expression shifting from confusion to realization to grief, the harp lying beside her, an empty medicine box corner visible, the ache of abandonment and self-sacrifice, soft golden dawn light against cold gray stone, deeply emotional solitude atmosphere",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/uso-to-kusari/ch14.webp",
+    "prompt": "anime illustration, light novel style, a young man with dark hair collapsed on forest ground at night, his eye patch askew revealing a faintly glowing purple-red cursed eye, his body wracked with pain, a tall red-haired man with a scar on his left cheek and a great sword on his back standing over him looking down with gruff concern, dark forest with twisted trees, faint purple magical corruption crawling up from the ground, the fallen man's expression one of agony and determination, the choice to bear chains willingly, dark oppressive atmosphere with small points of warm light",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/uso-to-kusari/ch15.webp",
+    "prompt": "anime illustration, light novel style, underground ancient temple discovery scene, a young man with dark hair and eye patch and a red-haired scarred swordsman descending stone stairs into a vast underground cathedral-like space, ancient stone pillars carved with glowing blue runes, a massive sealed door at the far end with church symbols, cool blue magical light illuminating the darkness from the runes, their torches casting warm circles of light against the cold blue, dust and ancient air, the weight of centuries-old secrets about to be uncovered, awe-inspiring underground architecture, mysterious and solemn atmosphere",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/uso-to-kusari/ch16.webp",
+    "prompt": "anime illustration, light novel style, climactic scene in an underground ritual chamber, a young man with dark hair removing his eye patch to reveal a blazing purple-red cursed eye called the Eye of Ending, magical energy spiraling outward from his eye in destructive waves, an elderly robed man with a benevolent false smile standing behind a magical apparatus, a girl with honey-colored hair bound to the apparatus by chains of light, the chamber filled with clashing energies of gold and purple, dramatic confrontation between truth and deception, intense magical combat atmosphere, purple-red and gold energy against dark stone",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/uso-to-kusari/ch17.webp",
+    "prompt": "anime illustration, light novel style, gentle awakening scene in a sunlit room, a young man with dark hair lying in a white bed in a simple warm room, morning sunlight streaming through a small window, his eye patch in place, his expression confused and lost as he wakes with no memories, dried herbs hanging from the ceiling filling the room with soft fragrance, his hand touching the bedsheets tentatively, the beauty of a blank slate and the sadness of lost memories coexisting, soft warm morning light, peaceful yet melancholic atmosphere, the quiet after the storm",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/uso-to-kusari/ch18.webp",
+    "prompt": "anime illustration, light novel style, heartwarming road scene in autumn, three travelers walking together on an autumn road lined with golden-leafed trees, a young man with dark hair and eye patch walking in the center with a gentle expression, a girl with honey-colored hair on his left laughing brightly with her harp on her back, a small girl with black twin-tails on his right tugging his coat sleeve, golden leaves falling around them in warm sunlight, the road stretching ahead with hope, a sense of found family and new beginnings despite lost memories, warm golden autumn tones, peaceful and hopeful atmosphere, the journey continues",
+    "aspect_ratio": "3:4"
+  }
+]
