@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{title}} | 灰の継ぎ手</title>
+  <title>{{title}}</title>
   <meta name="description" content="{{description}}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +13,10 @@
 <body>
   <header class="site-header">
     <nav>
-      <a href="{{basePath}}index.html" class="site-title">灰の継ぎ手</a>
+      <div class="header-left">
+        <a href="{{basePath}}" class="site-title">Novel Library</a>
+        {{breadcrumb}}
+      </div>
       <button id="theme-toggle" aria-label="テーマ切替">
         <span class="icon-sun">&#9788;</span>
         <span class="icon-moon">&#9790;</span>
@@ -24,7 +27,7 @@
     {{content}}
   </main>
   <footer class="site-footer">
-    <p>&copy; 灰の継ぎ手</p>
+    <p>&copy; Novel Library</p>
   </footer>
   <script src="{{basePath}}js/main.js"></script>
 </body>

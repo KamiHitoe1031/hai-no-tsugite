@@ -59,12 +59,47 @@ body {
   align-items: center;
 }
 
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  min-width: 0;
+}
+
 .site-title {
   font-size: 1.1rem;
   font-weight: 700;
   color: var(--accent);
   text-decoration: none;
   letter-spacing: 0.1em;
+  white-space: nowrap;
+}
+
+.breadcrumb-sep {
+  margin: 0 0.4rem;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.breadcrumb-link {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.breadcrumb-link:hover {
+  color: var(--accent);
+}
+
+.breadcrumb-current {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 #theme-toggle {
@@ -80,6 +115,7 @@ body {
   align-items: center;
   justify-content: center;
   transition: border-color 0.3s;
+  flex-shrink: 0;
 }
 
 #theme-toggle:hover {
@@ -99,7 +135,92 @@ main {
   width: 100%;
 }
 
-/* ====== ヒーロー（トップページ） ====== */
+/* ====== ポータル（サイトトップ） ====== */
+.portal-header {
+  text-align: center;
+  padding: 2.5rem 0 2rem;
+}
+
+.portal-title {
+  font-size: 2rem;
+  letter-spacing: 0.12em;
+  color: var(--accent);
+  margin-bottom: 0.3rem;
+}
+
+.portal-subtitle {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+}
+
+.story-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.story-card {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  background: var(--bg-secondary);
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--text);
+  transition: transform 0.2s, box-shadow 0.2s;
+  border: 1px solid var(--border);
+}
+
+.story-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.story-card-image img {
+  width: 140px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.story-card-image .placeholder-image {
+  width: 140px;
+  height: 100px;
+  background: var(--bg);
+  border: 1px dashed var(--border);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-secondary);
+  font-size: 0.7rem;
+}
+
+.story-card-info h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.2rem;
+  color: var(--accent);
+}
+
+.story-card-subtitle {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.4rem;
+}
+
+.story-card-desc {
+  font-size: 0.85rem;
+  color: var(--text);
+  line-height: 1.6;
+  margin-bottom: 0.4rem;
+}
+
+.story-card-stats {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+/* ====== ヒーロー（物語トップ） ====== */
 .hero {
   text-align: center;
   padding: 2rem 0 3rem;
@@ -139,6 +260,12 @@ main {
   font-size: 1.1rem;
   color: var(--text-secondary);
   letter-spacing: 0.08em;
+}
+
+.hero-stats {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-top: 0.5rem;
 }
 
 /* ====== 巻カード ====== */
@@ -242,6 +369,12 @@ main {
   margin-top: 0.3rem;
 }
 
+.volume-stats {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-top: 0.5rem;
+}
+
 .chapter-list {
   margin-top: 2rem;
 }
@@ -257,21 +390,37 @@ main {
 }
 
 .chapter-list li a {
-  display: block;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
   padding: 1rem 0;
   text-decoration: none;
   color: var(--text);
   transition: color 0.2s;
+  gap: 1rem;
 }
 
 .chapter-list li a::before {
   content: "第" counter(chapter, cjk-ideographic) "話　";
   color: var(--text-secondary);
   font-size: 0.9em;
+  flex-shrink: 0;
 }
 
 .chapter-list li a:hover {
   color: var(--accent);
+}
+
+.ch-title {
+  flex: 1;
+  min-width: 0;
+}
+
+.ch-chars {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  flex-shrink: 0;
+  white-space: nowrap;
 }
 
 /* ====== 各話ページ ====== */
@@ -371,12 +520,22 @@ main {
   font-style: italic;
 }
 
+/* 話末の文字数 */
+.chapter-stats {
+  text-align: right;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin-top: 2rem;
+  padding-top: 0.5rem;
+  border-top: 1px dotted var(--border);
+}
+
 /* ====== ナビゲーション ====== */
 .chapter-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 3rem;
+  margin-top: 1.5rem;
   padding-top: 1.5rem;
   border-top: 1px solid var(--border);
   gap: 0.5rem;
@@ -417,6 +576,13 @@ main {
   html { font-size: 15px; }
 
   .hero-title { font-size: 1.8rem; }
+  .portal-title { font-size: 1.5rem; }
+
+  .story-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
   .volume-card {
     flex-direction: column;
@@ -430,5 +596,15 @@ main {
 
   .chapter-nav a {
     padding: 0.4rem 0.6rem;
+  }
+
+  .chapter-list li a {
+    flex-wrap: wrap;
+  }
+
+  .ch-chars {
+    width: 100%;
+    text-align: right;
+    margin-top: -0.3rem;
   }
 }
