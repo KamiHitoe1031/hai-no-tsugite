@@ -179,7 +179,9 @@ function build() {
           chars,
           // 絶対パス（サイトルートから）
           url: `/${story.slug}/${vol.slug}/ch${padNum}.html`,
-          imagePath: `images/${vol.slug}/ch${padNum}.webp`,
+          imagePath: story.imageDir
+            ? `images/${story.imageDir}/ch${padNum}.webp`
+            : `images/${vol.slug}/ch${padNum}.webp`,
         });
       }
     }
@@ -230,7 +232,12 @@ function build() {
     for (const vol of story.volumes) {
       const volChapters = allChapters.filter(ch => ch.vol.slug === vol.slug);
       const volChars = volChapters.reduce((sum, ch) => sum + ch.chars, 0);
-      const coverImageTag = imageTag(`images/cover-${vol.slug}.webp`, vol.title);
+      const coverImageTag = imageTag(
+        story.imageDir
+          ? `images/${story.imageDir}/cover.webp`
+          : `images/cover-${vol.slug}.webp`,
+        vol.title
+      );
 
       const chapterLinks = volChapters.map(ch =>
         `<li><a href="${ch.slug}.html"><span class="ch-title">${ch.title}</span><span class="ch-chars">${formatNumber(ch.chars)}字</span></a></li>`
@@ -265,12 +272,22 @@ function build() {
 
     // --- 物語トップページを生成 ---
     const totalChars = allChapters.reduce((sum, ch) => sum + ch.chars, 0);
-    const heroImageTag = imageTag(`images/main-visual.webp`, story.title);
+    const heroImageTag = imageTag(
+      story.imageDir
+        ? `images/${story.imageDir}/main-visual.webp`
+        : `images/main-visual.webp`,
+      story.title
+    );
 
     const volumeCards = story.volumes.map(vol => {
       const volChapters = allChapters.filter(ch => ch.vol.slug === vol.slug);
       const volChars = volChapters.reduce((sum, ch) => sum + ch.chars, 0);
-      const coverTag = imageTag(`images/cover-${vol.slug}.webp`, vol.title);
+      const coverTag = imageTag(
+        story.imageDir
+          ? `images/${story.imageDir}/cover.webp`
+          : `images/cover-${vol.slug}.webp`,
+        vol.title
+      );
       return `<a href="${vol.slug}/" class="volume-card">
       <div class="volume-card-image">${coverTag}</div>
       <div class="volume-card-info">
@@ -314,7 +331,12 @@ function build() {
 
   // === ポータルページ（トップ）を生成 ===
   const storyCards = storySummaries.map(s => {
-    const coverTag = imageTag(`images/main-visual.webp`, s.title);
+    const coverTag = imageTag(
+      s.imageDir
+        ? `images/${s.imageDir}/main-visual.webp`
+        : `images/main-visual.webp`,
+      s.title
+    );
     return `<a href="${s.slug}/" class="story-card">
       <div class="story-card-image">${coverTag}</div>
       <div class="story-card-info">

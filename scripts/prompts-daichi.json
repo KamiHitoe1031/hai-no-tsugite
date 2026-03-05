@@ -1,0 +1,62 @@
+[
+  {
+    "output": "images/daichi/main-visual.webp",
+    "prompt": "anime illustration, light novel style, panoramic aerial view of a fantasy medieval world in reconstruction era, multiple workers visible across a vast landscape, a sturdy 45-year-old stone mason working on a bridge over a gorge in the foreground, a cat-eared girl carrying mail through snowy mountains in the mid-ground, a lighthouse on a rocky coast in the distance, farmlands with irrigation channels, a blacksmith's forge glowing warmly, scattered villages connected by dirt roads, golden hour sunlight casting long warm shadows across the entire scene, sense of quiet industry and hope, people rebuilding civilization through ordinary labor, warm earth tones with touches of gold, epic yet intimate atmosphere, highly detailed fantasy landscape",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "output": "images/daichi/cover.webp",
+    "prompt": "anime illustration, light novel style, book cover composition, a 45-year-old male stone bridge craftsman named Gareth with a stocky muscular build, weathered tan skin, short brown hair with gray streaks, wearing a leather work apron over a rough linen shirt, standing confidently on a half-finished stone bridge spanning a deep canyon, his large calloused hands resting on a freshly placed keystone, behind him a panoramic view of a fantasy medieval world under reconstruction, other workers visible as small figures in the valley below, warm sunset light illuminating the bridge from behind, sense of pride in honest labor, tools hanging from his belt, dust particles catching the light, title space at top, warm golden-brown color palette, inspiring and dignified atmosphere",
+    "aspect_ratio": "2:3"
+  },
+  {
+    "output": "images/daichi/ch01.webp",
+    "prompt": "anime illustration, light novel style, dramatic construction scene, a 45-year-old male stone bridge craftsman named Gareth with a stocky powerful build, short brown hair with gray streaks, weathered sun-tanned skin, wearing a leather work apron and rolled-up sleeves revealing muscular forearms, carefully placing the final keystone on a grand stone arch bridge spanning a deep misty canyon, his expression one of intense concentration and quiet determination, rope scaffolding and wooden supports visible beneath the arch, his apprentices watching nervously from the far side, wind blowing through the gorge rustling his hair, warm afternoon sunlight illuminating the pale stone of the bridge, dizzying height visible below, sense of monumental achievement through craft, fantasy medieval setting with distant mountains",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/daichi/ch02.webp",
+    "prompt": "anime illustration, light novel style, adventurous winter scene, a 24-year-old female cat beastfolk mail carrier named Leena with short tousled sandy-brown hair, pointed cat ears with tufts of fur at the tips, bright amber cat-like eyes, a long fluffy tail wrapped around her for warmth, wearing a heavy wool-lined postal uniform coat with a leather messenger bag slung across her chest, trudging determinedly through deep snow on a steep mountain pass, snowflakes catching on her eyelashes and ears, her breath visible in the freezing air, clutching a single precious letter in her gloved hand close to her chest, a narrow mountain trail with sheer cliffs on one side and a snowy abyss on the other, dramatic blizzard winds and swirling snow, faint warm light of a distant village visible far below through a gap in the clouds, perseverance and dedication atmosphere, cold blue-white tones with a warm glow from the distant destination",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/daichi/ch03.webp",
+    "prompt": "anime illustration, light novel style, emotional scene of hope, a 62-year-old male well digger named Jakob with a full white beard, deeply wrinkled sun-darkened skin, thin but wiry frame, kind tired eyes, wearing dirt-stained work clothes and a wide-brimmed hat pushed back on his head, standing waist-deep in a freshly dug well shaft, his shovel striking wet earth as the first trickle of water seeps through the soil, his eyes widening with joy and relief, above him desperate drought-stricken villagers gathered around the well opening looking down with hopeful expressions, cracked dry earth and wilted crops visible in the background, the parched fantasy village with dusty streets, a single stream of clear water beginning to pool at Jakob's feet catching light like liquid silver, powerful contrast between the dry desolate surface and the life-giving water below, deeply emotional moment of salvation",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/daichi/ch04.webp",
+    "prompt": "anime illustration, light novel style, dramatic stormy night scene, a 55-year-old female lighthouse keeper named Olga with strong weathered features, graying auburn hair pulled back in a practical bun, wearing a heavy oilskin coat and boots, climbing the spiraling stone staircase of a tall coastal lighthouse during a violent storm, rain lashing against the windows, she carries a heavy oil canister in one arm and shields a small flame with her other hand, her expression fierce and unyielding against the howling wind that seeps through cracks, the lighthouse lamp above flickering dangerously close to going out, through the rain-streaked windows massive dark waves crashing against the rocky shore below, a ship's lanterns barely visible on the violent sea in the distance, desperate urgency and unwavering duty, dark blue-black storm tones with warm orange flame light on her determined face",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/daichi/ch05.webp",
+    "prompt": "anime illustration, light novel style, warm heartfelt interior scene, a 38-year-old female innkeeper named Marta with a round kind face, warm brown eyes, chestnut hair in a loose braid, wearing a practical dress with a flour-dusted apron, standing in the warm common room of a rustic roadside inn, she is ladling hot stew into bowls for a group of weary travelers and three orphan children sitting at a long wooden table, the children laughing and reaching for fresh bread, a crackling stone fireplace casting warm orange light across the room, dried herbs and copper pots hanging from wooden ceiling beams, snow visible through frosted windows, lanterns glowing warmly, a feeling of safety and belonging, the inn as a sanctuary on a lonely road, cozy and nurturing atmosphere, rich warm color palette of amber and brown",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/daichi/ch06.webp",
+    "prompt": "anime illustration, light novel style, determined and compassionate scene, a 30-year-old female herbalist named Karen with slightly pointed ears hinting at elven heritage, long pale green hair tied back with a cloth band, gentle but focused violet eyes, wearing a practical herbalist's robe with many pockets and a satchel full of dried herbs, working urgently in a makeshift treatment tent in a plague-stricken village, grinding medicinal herbs with a mortar and pestle by candlelight, sweat on her brow, sick villagers lying on cots around her, a pot of herbal medicine simmering over a small fire, her expression showing exhaustion but absolute refusal to give up, faint magical shimmer on the herbs as she works them, dark and somber village outside the tent with quarantine markings on doors, contrast between the illness and her healing light, tense but hopeful medical drama atmosphere",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/daichi/ch07.webp",
+    "prompt": "anime illustration, light novel style, contemplative and melancholic discovery scene, a 35-year-old male cartographer named Theodore with medium-length dark brown hair, thoughtful hazel eyes behind round spectacles, a slight scholarly build, wearing a travel-worn coat with ink stains on his fingers, standing at the edge of a forgotten overgrown town hidden in a misty valley, holding an unfinished map and a quill pen, his expression one of quiet awe and sadness as he surveys the crumbling but once-beautiful stone buildings being reclaimed by nature, wild vines and flowers growing through windows and over rooftops, a few elderly residents visible in doorways watching him with cautious hope, morning mist parting to reveal the town like a secret being uncovered, his map partially drawn with blank spaces where this town should be, the act of recording and remembering as an act of love, atmospheric soft light filtering through mist, muted green and stone-gray palette with warm accents",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/daichi/ch08.webp",
+    "prompt": "anime illustration, light novel style, powerful and dignified craftsmanship scene, a 50-year-old male blacksmith named Thor with a broad stocky frame shorter than average hinting at dwarven heritage, a thick dark beard streaked with gray, powerful arms with old burn scars, deep-set steady brown eyes, wearing a heavy leather apron over a soot-stained shirt, standing at a blazing forge in a stone smithy, he is hammering not a sword but a beautifully crafted iron plow blade on his anvil, sparks flying with each powerful strike, his expression one of pride and quiet conviction, swords and weapons hanging unused and dusty on the back wall while freshly made farming tools - hoes sickles and scythes - hang polished and ready near the front, warm orange firelight from the forge illuminating his face and the glowing metal, the choice of creation over destruction, noble and warm atmosphere, rich contrast between fire-lit foreground and cool stone background",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/daichi/ch09.webp",
+    "prompt": "anime illustration, light novel style, ambitious engineering scene, a 28-year-old male water channel engineer named Emil with short sandy blond hair, bright determined green eyes, lean athletic build, wearing practical work clothes with mud-splattered boots and a leather tool belt, standing on a raised earthen embankment directing a team of workers digging a canal through a vast marshland, he holds unfurled blueprints in one hand and gestures with the other, wooden stakes and string marking the planned waterway stretching into the distance, workers using shovels and wheelbarrows in coordinated effort, the wetland slowly being transformed into organized irrigation channels, reeds and marsh grass being cleared, early morning golden light reflecting off standing water, a vision of fertile farmland overlaid ghostlike on the current marshscape showing what the land could become, teamwork and vision theme, expansive and hopeful atmosphere, earthy green and gold tones",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/daichi/ch10.webp",
+    "prompt": "anime illustration, light novel style, deeply quiet and moving scene, a 68-year-old male grave keeper named Fritz with a long white beard, gentle pale blue eyes full of weathered kindness, thin stooped frame wrapped in a simple dark coat, kneeling before a row of weathered gravestones in a peaceful hillside cemetery overlooking a rebuilt fantasy village, carefully placing fresh wildflowers - small white daisies and blue forget-me-nots - on each grave one by one, his gnarled hands handling the flowers with extraordinary tenderness, late afternoon golden light casting long shadows between the headstones, the cemetery well-tended with trimmed grass and no weeds, cherry-blossom-like trees in gentle bloom overhead scattering petals on the graves, the village below showing signs of life and recovery with smoke from chimneys and children playing in distant streets, a profound sense of remembrance and quiet devotion, the connection between the living and the dead, beautiful bittersweet serenity, soft warm light with gentle shadow",
+    "aspect_ratio": "3:4"
+  }
+]
