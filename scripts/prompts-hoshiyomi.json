@@ -1,0 +1,62 @@
+[
+  {
+    "output": "images/hoshiyomi/main-visual.webp",
+    "prompt": "anime illustration, light novel style, panoramic fantasy world montage showing ten different workers across a vast continent, a woman managing glowing underground farms in the foreground, an old fisherman battling a giant fish on stormy seas, a market woman tasting meat, a drum craftsman carving a massive log, a young man commanding glowing spirits from crystal machines, a female chef with magical kitchen tools, an elderly farmer tending sacred water plants, a man carrying invisible weight on his shoulders, a female blacksmith at a blazing forge, and a young man building intricate crystal models, all connected by flowing lines of magical newspaper text floating through the sky like aurora, warm golden hour lighting across the entire scene, sense of pride in diverse labor, highly detailed fantasy landscape",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "output": "images/hoshiyomi/cover.webp",
+    "prompt": "anime illustration, light novel style, book cover composition, a collage of ten profession symbols arranged in a circle around a glowing newspaper scroll in the center, symbols include a green plant sprout, a fish hook, a tasting spoon, a drum, a glowing crystal orb, a kitchen knife, a water leaf, balanced scales, a hammer and anvil, and tiny building blocks, the newspaper scroll has magical text flowing from it like ribbons of light, starry night sky background with constellation patterns connecting each symbol, warm amber and cool blue color palette, title space at top, sense of diverse stories united by one world",
+    "aspect_ratio": "2:3"
+  },
+  {
+    "output": "images/hoshiyomi/ch01.webp",
+    "prompt": "anime illustration, light novel style, a 30-year-old woman with brown hair tied back in a practical bun wearing a white researcher coat standing inside a massive underground farm facility, twelve tiers of glowing green plants stretching into the distance lit by magical luminescent stones, a large crystal spirit furnace humming with blue energy in the center, automated magical arms harvesting plants, the woman holding a clipboard looking proud but conflicted, an elderly female professor watching from the doorway with concern, warm green bioluminescence contrasting with cool blue spirit energy, the scale of industrial magic farming, awe-inspiring yet unsettling atmosphere",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/hoshiyomi/ch02.webp",
+    "prompt": "anime illustration, light novel style, dramatic ocean scene, a weathered 73-year-old fisherman with white hair and deep wrinkles standing on a small wooden boat in violent stormy seas, his thick hands gripping a glowing fishing line that plunges into dark churning waters below, a massive shadowy fish silhouette visible deep beneath the waves with faintly glowing scales, lightning splitting the dark sky, enormous waves towering around the tiny boat, the old man's expression fierce and determined despite his age, rope burns on his calloused hands, his grandson's hand-drawn charm hanging from the mast, dark blue-black storm tones with flashes of golden fish-glow from below",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/hoshiyomi/ch03.webp",
+    "prompt": "anime illustration, light novel style, bustling pre-dawn market scene, a 45-year-old woman with sharp eyes and tied-back dark hair wearing a leather apron standing at a market stall sampling a thin slice of magical beast meat from a small plate, dozens of different cuts of fantastical meat hanging behind her, lanterns casting warm amber light across the stone market halls, her teenage daughter watching from across the aisle with arms crossed and a bored expression, a new crystal automated grading device glowing blue on a nearby counter, the contrast between human expertise and machine precision, warm busy market atmosphere at 3 AM",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/hoshiyomi/ch04.webp",
+    "prompt": "anime illustration, light novel style, powerful craftsmanship scene, a 58-year-old stocky man with graying hair and strong arms using a large adze to carve out the interior of a massive sacred tree trunk in a traditional workshop, wood shavings flying with each precise strike, the trunk is enormous filling most of the workshop, a young beast-folk boy with pointed ears and a tail watching intently from the doorway holding a broom, workshop walls lined with drums of various sizes and traditional tools, warm afternoon light streaming through high windows illuminating floating sawdust, the weight of 160 years of tradition, dignified and warm atmosphere",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/hoshiyomi/ch05.webp",
+    "prompt": "anime illustration, light novel style, magical technology scene, a 22-year-old young man with messy dark hair and bright intelligent eyes standing before a large crystalline spirit furnace, his hands outstretched with glowing words and symbols floating from his fingertips toward the furnace, inside the transparent crystal a small luminous spirit entity responds with pulses of light, multiple screens of floating magical text surrounding him like holographic displays, a modern magical workshop with clean lines and crystal surfaces, the young man's expression shifting from commanding to contemplative, blue and white magical light illuminating his face, the intersection of language and magic",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/hoshiyomi/ch06.webp",
+    "prompt": "anime illustration, light novel style, elegant kitchen scene, a 35-year-old woman with long black hair in a chef's headband standing at a beautiful wooden counter in a high-end fantasy restaurant kitchen, one hand holding a magical device showing glowing numbers and the other hand touching a fresh fish with bare fingers feeling its texture, her elderly grandmother sitting on a stool nearby watching with crossed arms and a stern expression, traditional cooking implements hanging alongside modern magical tools, steam and warm kitchen light, the tension between tradition and innovation visible in the two women's contrasting postures, rich warm color palette",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/hoshiyomi/ch07.webp",
+    "prompt": "anime illustration, light novel style, serene mountain valley scene, a 60-year-old woman with weathered kind face and gray-streaked hair kneeling in a terraced water garden where crystal-clear spring water flows between rows of small pungent green plants, she tenderly tends to the plants with bare hands, the sacred spring bubbling up from mossy rocks above, ancient stone walls marking 400-year-old cultivation terraces, mountains with snow-capped peaks in the background, morning mist hanging in the valley, a sense of centuries of careful stewardship, peaceful yet endangered atmosphere, soft green and silver tones",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/hoshiyomi/ch08.webp",
+    "prompt": "anime illustration, light novel style, somber atmospheric scene, a 40-year-old tall thin man with prematurely white-streaked hair wearing a dark formal coat kneeling before a weeping person in a dimly lit room, his hands placed flat on the floor in a deep bow of apology, a faint dark aura flowing from the weeping person into the man's body like wisps of shadow being absorbed, his expression calm and accepting despite visible pain, the weight of others' guilt manifesting as subtle dark chains around his wrists, a single candle illuminating the scene, the profound loneliness of bearing others' sins, dark muted tones with warm candlelight",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/hoshiyomi/ch09.webp",
+    "prompt": "anime illustration, light novel style, intense forge scene, a 28-year-old woman with copper-red hair tied back and soot on her face wearing a leather smith's apron, hammering a glowing white-hot blade of meteoric metal on an anvil, sparks flying in dramatic arcs, her muscular arms glistening with sweat, the forge blazing with otherworldly blue-white flames behind her, ancient runic inscriptions carved into the stone walls of the forge glowing faintly, her expression one of absolute focus and spiritual connection with the metal, the blade beginning to show a beautiful crystalline pattern, intense orange-white forge light against cool dark stone, the sacred act of creation",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "output": "images/hoshiyomi/ch10.webp",
+    "prompt": "anime illustration, light novel style, heartwarming creative scene, a 25-year-old young man with sandy hair and gentle eyes sitting on the ground of a town square surrounded by children, together they are assembling a large intricate model city made of tiny glowing magical crystal pieces, the model city alive with miniature lights and flowing energy representing roads and waterways, children excitedly placing crystal pieces while the young man guides their hands, the real city visible in the background for scale comparison, afternoon golden sunlight, colorful crystal reflections dancing on everyone's faces, the joy of collaborative creation, warm hopeful atmosphere befitting a series finale",
+    "aspect_ratio": "3:4"
+  }
+]
