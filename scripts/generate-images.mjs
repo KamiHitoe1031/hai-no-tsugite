@@ -16,8 +16,8 @@ if (!process.env.GOOGLE_API_KEY) {
 
 const ai = new GoogleGenAI({ apiKey: process.env.GOOGLE_API_KEY });
 
-// Geminiモデル（画像入力+出力対応）
-const MODEL = "gemini-2.0-flash-exp-image-generation";
+// NanobanaPro (Gemini 3 Pro Image)
+const MODEL = "gemini-3-pro-image-preview";
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -72,14 +72,15 @@ function detectCharacters(prompt) {
   return found;
 }
 
-// Geminiで画像生成（キャラ参照画像付き）
-async function generateWithReferences(prompt, referenceImages, aspectRatio) {
-  const contents = [];
+// NanobanaProで画像生成（キャラ参照画像付き）
+async function generateImage(prompt, referenceImages, aspectRatio) {
+  const parts = [];
 
-  // キャラクター参照画像を添付
+  // キャラクター参照画像を添付（NanobanaProは最大5人のキャラクター一貫性をサポート）
   if (referenceImages.length > 0) {
-    const parts = [];
-    parts.push({ text: "以下のキャラクターの外見を正確に再現してイラストを生成してください。キャラクターの髪色、目の色、服装、体格を参照画像と一致させてください。\n\nCharacter references:" });
+    parts.push({
+      text: "以下のキャラクターの外見を正確に再現してイラストを生成してください。キャラクターの髪色、目の色、服装、体格を参照画像と一致させてください。\n\nCharacter references:",
+    });
     for (const ref of referenceImages) {
       parts.push({
         inlineData: {
@@ -89,27 +90,28 @@ async function generateWithReferences(prompt, referenceImages, aspectRatio) {
       });
       parts.push({ text: `(${ref.name})` });
     }
-    parts.push({ text: `\n\nGenerate the following scene illustration (aspect ratio: ${aspectRatio}):\n${prompt}` });
-    contents.push({ role: "user", parts });
-  } else {
-    contents.push({
-      role: "user",
-      parts: [{ text: `Generate this illustration (aspect ratio: ${aspectRatio}):\n${prompt}` }],
+    parts.push({
+      text: `\n\nGenerate the following scene illustration:\n${prompt}`,
     });
+  } else {
+    parts.push({ text: prompt });
   }
 
   const response = await ai.models.generateContent({
     model: MODEL,
-    contents,
+    contents: [{ role: "user", parts }],
     config: {
-      responseModalities: ["image", "text"],
+      responseModalities: ["TEXT", "IMAGE"],
+      imageConfig: {
+        aspectRatio: aspectRatio || "3:4",
+      },
     },
   });
 
   // レスポンスから画像を抽出
   if (response.candidates && response.candidates[0]) {
-    const parts = response.candidates[0].content.parts;
-    for (const part of parts) {
+    const resParts = response.candidates[0].content.parts;
+    for (const part of resParts) {
       if (part.inlineData) {
         return Buffer.from(part.inlineData.data, "base64");
       }
@@ -118,26 +120,11 @@ async function generateWithReferences(prompt, referenceImages, aspectRatio) {
   throw new Error("画像がレスポンスに含まれていません");
 }
 
-// Imagen APIで画像生成（キャラ参照なし用）
-async function generateWithImagen(prompt, aspectRatio) {
-  const response = await ai.models.generateImages({
-    model: "imagen-4.0-generate-001",
-    prompt,
-    config: {
-      numberOfImages: 1,
-      aspectRatio: aspectRatio || "3:4",
-    },
-  });
-
-  if (!response.generatedImages || response.generatedImages.length === 0) {
-    throw new Error("画像が生成されませんでした");
-  }
-  return Buffer.from(response.generatedImages[0].image.imageBytes, "base64");
-}
-
 async function main() {
   const prompts = JSON.parse(fs.readFileSync(PROMPTS_FILE, "utf-8"));
   fs.mkdirSync(CHAR_REFS_DIR, { recursive: true });
+
+  console.log(`使用モデル: ${MODEL} (NanobanaPro)\n`);
 
   // === Phase 1: キャラクターリファレンス生成 ===
   console.log("=== Phase 1: キャラクターリファレンス生成 ===\n");
@@ -154,13 +141,13 @@ async function main() {
 
     console.log(`[リファレンス] 生成中: ${char.name}...`);
     try {
-      const buf = await generateWithImagen(char.prompt, "3:4");
+      const buf = await generateImage(char.prompt, [], "3:4");
       fs.writeFileSync(refPath, buf);
       console.log(`  完了: ${char.name} (${(buf.length / 1024).toFixed(0)}KB)`);
     } catch (err) {
       console.error(`  エラー: ${char.name} - ${err.message}`);
     }
-    await sleep(2000);
+    await sleep(3000);
   }
 
   // === Phase 2: シーンイラスト生成 ===
@@ -197,14 +184,7 @@ async function main() {
     console.log(`[${i + 1}/${prompts.length}] 生成中: ${item.output} (${item.aspect_ratio})${refNames ? ` [参照: ${refNames}]` : ""}`);
 
     try {
-      let imageBuffer;
-      if (refImages.length > 0) {
-        // キャラ参照ありの場合Geminiを使用
-        imageBuffer = await generateWithReferences(item.prompt, refImages, item.aspect_ratio);
-      } else {
-        // キャラ参照なしの場合Imagenを使用
-        imageBuffer = await generateWithImagen(item.prompt, item.aspect_ratio);
-      }
+      const imageBuffer = await generateImage(item.prompt, refImages, item.aspect_ratio);
       fs.writeFileSync(outputPath, imageBuffer);
       generated++;
       console.log(`  完了: ${item.output} (${(imageBuffer.length / 1024).toFixed(0)}KB)`);
