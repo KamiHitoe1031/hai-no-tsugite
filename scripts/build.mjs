@@ -44,10 +44,11 @@ function formatNumber(n) {
 }
 
 // 画像パスの存在チェック → img要素 or プレースホルダー
-function imageTag(relativePath, alt) {
+// prefix: HTMLファイルの階層に応じた相対パス補正（"../" や "slug/" など）
+function imageTag(relativePath, alt, prefix = "") {
   const absPath = path.join(ROOT, relativePath);
   if (fs.existsSync(absPath)) {
-    return `<img src="${relativePath}" alt="${alt}" loading="lazy">`;
+    return `<img src="${prefix}${relativePath}" alt="${alt}" loading="lazy">`;
   }
   return `<div class="placeholder-image">${alt}</div>`;
 }
@@ -193,7 +194,7 @@ function build() {
       const next = i < allChapters.length - 1 ? allChapters[i + 1] : null;
 
       const htmlContent = marked.parse(ch.mdContent);
-      const chapterImageTag = imageTag(ch.imagePath, ch.title);
+      const chapterImageTag = imageTag(ch.imagePath, ch.title, "../");
 
       const prevLink = prev
         ? `<a href="${prev.url}" class="nav-prev">${prev.title}</a>`
@@ -236,7 +237,8 @@ function build() {
         story.imageDir
           ? `images/${story.imageDir}/cover.webp`
           : `images/cover-${vol.slug}.webp`,
-        vol.title
+        vol.title,
+        "../"
       );
 
       const chapterLinks = volChapters.map(ch =>
@@ -335,7 +337,8 @@ function build() {
       s.imageDir
         ? `images/${s.imageDir}/main-visual.webp`
         : `images/main-visual.webp`,
-      s.title
+      s.title,
+      `${s.slug}/`
     );
     return `<a href="${s.slug}/" class="story-card">
       <div class="story-card-image">${coverTag}</div>
