@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{basePath}}css/style.css">
+  <link rel="stylesheet" href="{{basePath}}css/review.css">
 </head>
 <body>
   <header class="site-header">
@@ -17,10 +18,12 @@
         <a href="{{basePath}}" class="site-title">Novel Library</a>
         {{breadcrumb}}
       </div>
-      <button id="theme-toggle" aria-label="テーマ切替">
-        <span class="icon-sun">&#9788;</span>
-        <span class="icon-moon">&#9790;</span>
-      </button>
+      <div class="header-right">
+        <button id="theme-toggle" aria-label="テーマ切替">
+          <span class="icon-sun">&#9788;</span>
+          <span class="icon-moon">&#9790;</span>
+        </button>
+      </div>
     </nav>
   </header>
   <main>
@@ -30,5 +33,6 @@
     <p>&copy; Novel Library</p>
   </footer>
   <script src="{{basePath}}js/main.js"></script>
+  <script src="{{basePath}}js/review.js"></script>
 </body>
 </html>
