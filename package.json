@@ -6,11 +6,15 @@
   "scripts": {
     "build": "node scripts/build.mjs",
     "generate-images": "node scripts/generate-images.mjs",
-    "preview": "npx serve dist"
+    "preview": "wrangler dev",
+    "deploy": "wrangler deploy"
   },
   "dependencies": {
     "@google/genai": "^1.0.0",
     "dotenv": "^16.4.7",
     "marked": "^15.0.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.71.0"
   }
 }
