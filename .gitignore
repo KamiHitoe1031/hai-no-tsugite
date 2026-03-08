@@ -6,3 +6,8 @@ dist/
 *.pem
 *.key
 credentials.json
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
